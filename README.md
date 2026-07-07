@@ -64,9 +64,9 @@ This project reads from the Gold layer only. Build the warehouse first:
 3. Run scripts `07` through `11` in order for the advanced analytics pass.
 4. Run `12_adv_report_customers.sql` and `13_adv_report_products.sql` to create the two
    final reporting views:
-   - `gold.report_customers` — one row per customer, with segment, recency, AOV, and
+   - `gold.report_customers` - one row per customer, with segment, recency, AOV, and
      average monthly spend.
-   - `gold.report_products` — one row per product, with performance segment, recency,
+   - `gold.report_products` - one row per product, with performance segment, recency,
      average order revenue, and average monthly revenue.
 5. Query the two report views directly for dashboards (Power BI, Excel) or ad-hoc analysis:
    ```sql
