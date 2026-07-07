@@ -59,7 +59,7 @@ This project reads from the Gold layer only. Build the warehouse first:
 
 ## How to Run
 
-1. `scripts/00_init_analytics.sql` — connects to `DataWarehouse` and sanity-checks the gold views.
+1. `scripts/00_init_analytics.sql` - connects to `DataWarehouse` and sanity-checks the gold views.
 2. Run scripts `01` through `06` in order for the EDA pass.
 3. Run scripts `07` through `11` in order for the advanced analytics pass.
 4. Run `12_adv_report_customers.sql` and `13_adv_report_products.sql` to create the two
