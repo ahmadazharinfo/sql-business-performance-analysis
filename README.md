@@ -10,7 +10,7 @@ Analytics -> Reporting flow.
 
 ## Analytics Flow
 
-**Exploratory Data Analysis (EDA)** — understand the data before analyzing it:
+**Exploratory Data Analysis (EDA)** - understand the data before analyzing it:
 `Database Exploration -> Dimensions Exploration -> Date Exploration -> Measures Exploration -> Magnitude Analysis -> Ranking Analysis`
 
 **Advanced Analytics** — turn the data into business insight:
